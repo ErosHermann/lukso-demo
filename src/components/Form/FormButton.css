@@ -1,0 +1,22 @@
+.formbutton-container {
+    margin-top: 30px;
+    margin-left: 100px; /* Adjust as needed */
+}
+
+.formbutton {
+    
+  color: rgb(0, 0, 0);
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 5px solid;
+  border-color: #fe005c;
+  border-radius: 5px;
+  margin-top: 50px;
+  
+  margin: auto;
+}
+
+.formbutton:hover {
+    background-color: #fed0e1;
+  }

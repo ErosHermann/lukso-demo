@@ -1,0 +1,50 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.submissions-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align items to the start of the row */
+  margin-top: 20px;
+  
+}
+
+.card {
+  flex: 0 0 auto; /* Maintain the width of each card */
+  max-width: 300px; /* Adjust maximum width as needed */
+  margin-right: 20px; /* Add space between cards */
+  margin-bottom: 20px; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card .media {
+  margin: 15px 0;
+}
+
+.card img,
+.card video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.subheader {
+
+  color: #fe005c;
+}

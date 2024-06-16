@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #fde2ec;
+    color: white;
+    height: 60px;
+
+ }
+
+.navbar-logo {
+    transition: transform 0.3s;
+ }
+
+.navbar-logo img {
+    max-width: 200px; /* Adjust this value to control the width */
+    max-height: auto; /* Adjust this value to control the height */
+    cursor: pointer;
+
+  }
+
+  .navbar-logo:hover {
+    transform: scale(1.1);
+  }
+
+  .navbar-button {
+    background-color: rgb(29, 26, 26);
+    color: #fe005c;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .navbar-button:hover {
+    background-color: hsl(180, 2%, 68%);
+  }
+  
+  .navbar-buttons {
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    gap: 100px; /* Increase this value to add more space between buttons */
+  }
+
+
+
+
+  .connect-wallet {
+    background-color: #fe005c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .connect-wallet:hover {
+    background-color: #fc639b;
+
+  }
+
+
+

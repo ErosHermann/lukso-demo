@@ -1,0 +1,41 @@
+.submission-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submission-detail h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .submission-detail .media {
+    margin-bottom: 20px;
+  }
+  
+  .submission-detail img,
+  .submission-detail video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .submission-detail p {
+    margin-bottom: 10px;
+  }
+  
+  .submission-detail strong {
+    font-weight: bold;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #666;
+  }
+  
